@@ -14,6 +14,13 @@
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden; /* para não aparecer barra de rolagem na horizontal */
 }
+
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: var(--color-menu);
+}
 /* AQUI COMEÇA O HEADER */
 
 .logo-bg{
@@ -41,7 +48,8 @@ nav .nav-menu{
   color: var(--color-menu);
   height: 48px;
 }
-/* AQUI COMEÇA O MAIN DO INDEX */
+
+/* AQUI COMEÇA O MAIN DA PAGINA INDEX */
 
 .index-main{
   background: #fff url("../assets/image1-index.png") no-repeat;
@@ -65,7 +73,7 @@ nav .nav-menu{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
 }
 
-/* AQUI COMEÇA O 1º SECTION DO INDEX */
+/* AQUI COMEÇA O 1º SECTION DA PAGINA INDEX */
 
 .weekly-recipe{
   display: flex;
@@ -123,7 +131,7 @@ nav .nav-menu{
   /* filter: brightness(1.3); */
 }
 
-/* AQUI COMEÇA O 2º SECTION DO INDEX */
+/* AQUI COMEÇA O 2º SECTION DA PAGINA INDEX */
 
 .last-banner{
   background: #fff url("../assets/image2-index.png") no-repeat;
@@ -150,8 +158,6 @@ nav .nav-menu{
   width: 800px;
   margin-bottom: 73px;
 }
-
-.last-banner p:nth-child(1)
 
 
 /* AQUI COMEÇA O MAIN DAS RECEITAS */
