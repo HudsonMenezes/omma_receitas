@@ -44,7 +44,7 @@ nav .nav-menu{
 /* AQUI COMEÇA O MAIN DO INDEX */
 
 .index-main{
-  background: #fff url("../assets/image1.png") no-repeat;
+  background: #fff url("../assets/image1-index.png") no-repeat;
   background-size: cover;
   height: 640px;
   width: 100vw;
@@ -65,7 +65,7 @@ nav .nav-menu{
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
 }
 
-/* AQUI COMEÇA O SECTION DO INDEX */
+/* AQUI COMEÇA O 1º SECTION DO INDEX */
 
 .weekly-recipe{
   display: flex;
@@ -122,6 +122,37 @@ nav .nav-menu{
   background-color: #092b00;
   /* filter: brightness(1.3); */
 }
+
+/* AQUI COMEÇA O 2º SECTION DO INDEX */
+
+.last-banner{
+  background: #fff url("../assets/image2-index.png") no-repeat;
+  background-size: cover;
+  height: 772px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 160px;
+}
+
+.last-banner p{
+  color: var(--color-menu);
+  font-size: 24px;
+  width: 700px;
+  padding: 30px 120px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+}
+.last-banner p:nth-child(1){
+  font-size: 65px;
+  font-weight: 700;
+  width: 800px;
+  margin-bottom: 73px;
+}
+
+.last-banner p:nth-child(1)
+
 
 /* AQUI COMEÇA O MAIN DAS RECEITAS */
 
@@ -218,7 +249,7 @@ nav .nav-menu{
 footer{
   height: 120px;
   width: 100vw;
-  margin-top: 166px;
+  /* margin-top: 166px; */
   background-color: var(--color-logo-bg);
   color: var(--color-menu);
   display: flex;
