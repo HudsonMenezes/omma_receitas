@@ -38,9 +38,9 @@ nav .nav-menu{
   height: 48px;
 }
 
-/* AQUI COMEÇA O MAIN */
+/* AQUI COMEÇA O MAIN DAS RECEITAS */
 
-main{
+.receita-main{
   display: flex;
   margin: 0 auto;
   justify-content: space-around;
@@ -101,7 +101,7 @@ main{
   margin-bottom: 20px;
 }
 
-/* RECEITAS RELACIONADAS */
+/* AQUI COMEÇA AS RECEITAS RELACIONADAS */
 
 .receitas-relacionadas{
   margin-top: 178px;
@@ -128,7 +128,7 @@ main{
   padding: 15px;
 }
 
-/* FOOTER */
+/* AQUI COMEÇA O FOOTER */
 
 footer{
   height: 120px;
