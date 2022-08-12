@@ -49,6 +49,14 @@ nav .nav-menu{
   height: 48px;
 }
 
+nav .nav-menu li a{
+  transition: all 0.3s ease;
+}
+
+nav .nav-menu li a:hover{
+  color: var(--color-btn);
+}
+
 /* AQUI COMEÇA O MAIN DA PAGINA INDEX */
 
 .index-main{
@@ -157,6 +165,70 @@ nav .nav-menu{
   font-weight: 700;
   width: 800px;
   margin-bottom: 73px;
+}
+
+/* AQUI COMEÇA O MAIN DA PÁGINA TODAS AS RECEITAS */
+
+.all-recipes-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  margin: 0 auto;
+  gap: 30px;
+  max-width: 1200px;
+  margin-top: 104px;
+}
+
+.all-recipes-main h1{
+  align-self: flex-start;
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: var(--color-maincolor);
+}
+
+.all-recipes-main .recipe-container{
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.all-recipes-main .recipe-container div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-recipes-main .recipe-container img{
+  width: 345px;
+  height: 345px;
+  object-fit: cover;
+}
+
+.all-recipes-main .recipe-container p{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin: 15px;
+}
+
+.all-recipes-main .recipe-container button{
+  background-color: var(--color-btn);
+  color: var(--color-menu);
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 30px;
+  margin-bottom: 116px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.all-recipes-main .recipe-container button:hover{
+  background-color: #092b00;
+  /* filter: brightness(1.3); */
 }
 
 
