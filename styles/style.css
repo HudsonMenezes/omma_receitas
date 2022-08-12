@@ -323,6 +323,85 @@ nav .nav-menu li a:hover{
   padding: 15px;
 }
 
+/* AQUI COMEÇA A PÁGINA CONTATO */ 
+
+.banner-contact{
+  background: #fff url("../assets/banner-contact.png") no-repeat;
+  background-size: cover;
+  height: 405px;
+  width: 100vw;
+  border: none;
+}
+
+.banner-contact h1{
+  font-size: 4.375rem;
+  font-weight: 700;
+  color: var(--color-menu);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.36);
+  width: 400px;
+  margin-left: 122px;
+  margin-top: 49px;
+}
+
+.form-container{
+  display: flex;
+  margin: 102px auto 133px auto;
+  width: 80vw;
+  gap: 15px;
+}
+
+.form-container img{
+  width: 350px;
+}
+
+.form-container div{
+  width: 820px;
+  height: 766px;
+  border: 1px solid var(--color-maincolor);
+  border-radius: 20px;
+
+}
+
+.form-container div form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  gap: 22px;
+  margin: 64px 33px;
+}
+
+.form-container div form h2{
+  font-weight: 700;
+  font-size: 2.5rem;
+  align-self: flex-start;
+  margin-bottom: 67px;
+  margin-top: 60px;
+  color: var(--color-logo-bg);
+}
+
+.form-container div form input, .form-container div form textarea{
+  width: 100%;
+  border-radius: 7px;
+  border: 1px solid var(--color-maincolor);
+  padding: 20px;
+}
+
+.form-container div form input{
+  height: 48px;
+}
+
+.form-container div form button{
+  background-color: var(--color-logo-bg);
+  color: var(--color-menu);
+  border-radius: 50px;
+  width: 165px;
+  height: 48px;
+  border: none;
+  align-self: flex-start;
+}
+
+
 /* AQUI COMEÇA O FOOTER */
 
 footer{
