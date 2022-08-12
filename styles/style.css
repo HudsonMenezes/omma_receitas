@@ -399,6 +399,7 @@ nav .nav-menu li a:hover{
   height: 48px;
   border: none;
   align-self: flex-start;
+  cursor: pointer;
 }
 
 
