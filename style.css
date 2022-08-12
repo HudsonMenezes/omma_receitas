@@ -128,5 +128,22 @@ main{
   padding: 15px;
 }
 
+/* FOOTER */
+
+footer{
+  height: 120px;
+  margin-top: 166px;
+  background-color: var(--color-logo-bg);
+  color: var(--color-menu);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+footer p{
+  font-weight: 600;
+}
+
 
 
