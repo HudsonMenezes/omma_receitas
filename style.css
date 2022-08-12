@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+:root{
+  --color-logo-bg: #FFC107;
+  --color-maincolor: #FFA000;
+  --color-menu: #FDFDFD;
+  --color-desc-btn: #176902;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+/* AQUI COMEÇA O HEADER */
+.logo{
+  display: flex;
+  justify-content: center;
+  background-color: var(--color-logo-bg);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+nav{
+  background-color: var(--color-maincolor);
+}
+
+nav .nav-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 58px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-menu);
+  height: 48px;
+}
+
+/* AQUI COMEÇA O MAIN */
+
+main{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  max-width: 1200px;
+}
+
+/* RECEITA */
+
+.receita{
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+.receita h1{
+  margin-top: 107px;
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: var(--color-maincolor);
+}
+
+.receita img{
+  margin-top: 28px;
+  width: 592px;
+  height: 311px;
+}
+
+.receita .desc-btn > *{
+  color: var(--color-desc-btn);
+  background-color: var(--color-menu);
+  padding: 8px;
+  margin-top: 25px;
+  border: 1px solid var(--color-desc-btn);
+  border-radius: 45px;
+  font-weight: 500;
+}
+
+.receita .desc-btn button:nth-child(1){
+  width: 80px;
+}
+
+.receita .desc-btn button:nth-child(2){
+  width: 180px;
+}
+
+.ingredientes{
+  margin-top: 58px;
+  list-style: none;
+}
+
+.video-receita h4{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.preparo h4{
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* RECEITAS RELACIONADAS */
+
+.receitas-relacionadas{
+  margin-top: 178px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.receitas-relacionadas h2{
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--color-maincolor);
+}
+
+.receitas-relacionadas div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.receitas-relacionadas div h4{
+  padding: 15px;
+}
+
+
+
