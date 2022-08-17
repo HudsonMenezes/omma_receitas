@@ -1,6 +1,6 @@
-# :construction: Projeto em Construção :construction:
+# :heavy_check_mark: Projeto Finalizado :heavy_check_mark:
 
-### Projeto omma - Site de Receitas para o curso da Gama Academy Fullstack
+### Omma - Site de Receitas para o curso da Gama Academy Fullstack
  :arrow_right:Desenvolvido em: HTML e CSS<br>
  :arrow_right:Responsivo para Mobile.
 
