@@ -349,6 +349,7 @@ nav .hamburguer{
   height: 405px;
   width: 100vw;
   border: none;
+  overflow-x: hidden;
 }
 
 .banner-contact h1{
